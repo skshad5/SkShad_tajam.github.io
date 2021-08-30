@@ -38,8 +38,21 @@
   #video-part {
     padding: 100px 0;
   }
+  .service-head p {
+    font-size: 10px;
+  }
+  .service-icon h4 {
+    font-size: 10px;
+  }
   .service-icon p {
     padding: 0;
+    font-size: 10px;
+  }
+  .team-text-part p {
+    font-size: 10px;
+  }
+  .img-edit {
+    height: 100px;
   }
   .service-icon img {
     padding-top: 40px;
@@ -61,11 +74,11 @@
   }
   .left-arrow {
     top: 77%;
-    left: 15%;
+    left: 1%;
   }
   .right-arrow {
     top: 77%;
-    right: 15%;
+    right: 1%;
   }
 
   .slick-center .team-two-img img {
@@ -101,7 +114,8 @@
     line-height: 15px;
   }
   .newsletter {
-    width: 115px;
+    width: 100%;
+    margin-bottom: 10px;
   }
   .footer-top-right ul li a {
     font-size: 10px;
@@ -113,14 +127,27 @@
     margin-top: 20px;
     margin-left: 9px;
   }
+  .footer-top-left p {
+    padding-bottom: 25px;
+  }
   .footer-bottom-left ul li {
     margin-right: 10px;
   }
   .footer-bottom-left ul li a {
-    font-size: 10px;
+    font-size: 6px;
   }
   .footer-bottom-right p {
-    font-size: 10px;
+    font-size: 9px;
+  }
+  .footer-wrap-bottom {
+    margin-top: 20px;
+  }
+  #footer-part {
+    padding: 30px 0;
+  }
+
+  .btn-custom-footer-right {
+    width: 100%;
   }
 }
 
