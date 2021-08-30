@@ -14,8 +14,12 @@
   }
 
   .banner-text p {
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .banner-text h2 {
+    font-size: 20px;
   }
 
   /* about part */
@@ -27,12 +31,96 @@
     padding-top: 30px;
   }
   .about-text a {
-    margin: 5px 180px;
-    padding: 10px 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #video-part {
+    padding: 100px 0;
+  }
+  .service-icon p {
+    padding: 0;
+  }
+  .service-icon img {
+    padding-top: 40px;
+    padding-bottom: 10px;
   }
   .about-img img {
     height: 150px;
     width: 150px;
+  }
+  .team-two-text p {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 0;
+    padding-bottom: 25px;
+  }
+  .slider-img {
+    width: 300px;
+    height: 70px;
+  }
+  .left-arrow {
+    top: 77%;
+    left: 15%;
+  }
+  .right-arrow {
+    top: 77%;
+    right: 15%;
+  }
+
+  .slick-center .team-two-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    top: 16%;
+    padding: 1px;
+    margin-left: -7px;
+  }
+  .team-two-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .contact-right h3 {
+    color: #3e2e68;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .contact-left a {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-right-part {
+    text-align: center;
+  }
+
+  .footer-top-middle p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .newsletter {
+    width: 115px;
+  }
+  .footer-top-right ul li a {
+    font-size: 10px;
+  }
+  .footer-top-right ul li {
+    width: 20px;
+    height: 20px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-left: 9px;
+  }
+  .footer-bottom-left ul li {
+    margin-right: 10px;
+  }
+  .footer-bottom-left ul li a {
+    font-size: 10px;
+  }
+  .footer-bottom-right p {
+    font-size: 10px;
   }
 }
 

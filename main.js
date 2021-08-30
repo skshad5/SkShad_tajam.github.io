@@ -114,7 +114,8 @@ $('.slider-img').slick({
   prevArrow:'.left-arrow',
   nextArrow:'.right-arrow',
   centerMode: true,
-  focusOnSelect: true
+  focusOnSelect: true,
+
 });
 
 
