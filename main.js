@@ -164,7 +164,7 @@ $(".typed").typed({
 
 // typed js service
 $(".service").typed({
-  strings: ["Sk Shad", "Janatul Ferdous Sohana", "Asha Moni", 'Sk Asad'],
+  strings: ["Sk Shad", "Janatul Ferdous Sohana", "Asha Moni", 'Sk Asad' , 'HASINA PARVEEN' , 'SK SADEE' , 'SK SAFEE'],
   // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
   stringsElement: null,
   // typing speed
@@ -196,6 +196,26 @@ $(".service").typed({
   // callback for reset
   resetCallback: function() {}
 });
+
+
+// Smooths scrolling
+$('body').scrollspy({target: ".navbar", offset: 50});
+//animation scroll js
+var html_body = $('html, body');
+$('nav a').on('click', function () {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            html_body.animate({
+                scrollTop: target.offset().top - 50
+            }, 1500);
+            return false;
+        }
+    }
+});
+
+
 
 
 });
